@@ -1,6 +1,6 @@
 # `@ashtrath/skills`
 
-![Project Overview](https://shieldcn.dev/group/npm/@ashtrath/skills+github/stars/ashtrath/skills+github/license/ashtrath/skills.svg?variant=branded)
+![Project Overview](https://shieldcn.dev/group/npm/@ashtrath/skills+github/stars/ashtrath/skills+github/license/ashtrath/skills.svg?variant=branded&size=xs)
 
 Ashtrath's curated agent skills.
 
