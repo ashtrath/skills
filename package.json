@@ -1,0 +1,58 @@
+{
+  "name": "@ashtrath/skills",
+  "version": "0.0.0",
+  "description": "Ashtrath's curated agent skills.",
+  "keywords": [
+    "agent",
+    "agent-skills",
+    "ai",
+    "claude",
+    "cursor",
+    "oh-my-pi",
+    "opencode",
+    "skills"
+  ],
+  "homepage": "https://github.com/ashtrath/skills#readme",
+  "bugs": "https://github.com/ashtrath/skills/issues",
+  "license": "MIT",
+  "author": "Rahadian Fahri Faizani <ashtrath@pm.me> (https://github.com/ashtrath)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashtrath/skills.git"
+  },
+  "files": [
+    "skills"
+  ],
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "fmt": "oxfmt --write --no-error-on-unmatched-pattern",
+    "gen": "tsx scripts/gen.ts",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
+    "release": "bumpp",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@ashtrath/oxc-config": "catalog:cli",
+    "@types/node": "catalog:types",
+    "bumpp": "catalog:cli",
+    "oxfmt": "catalog:cli",
+    "oxlint": "catalog:cli",
+    "skills": "catalog:cli",
+    "tsx": "catalog:cli",
+    "typescript": "catalog:cli",
+    "yaml": "catalog:cli"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.18.0",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.18.0",
+  "skills": []
+}

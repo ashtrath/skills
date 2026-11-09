@@ -1,0 +1,27 @@
+ignoreWorkspaceRootCheck: true
+shellEmulator: true
+
+trustPolicy: no-downgrade
+trustPolicyExcludePrune: true
+minimumReleaseAge: 1440
+minimumReleaseAgeExcludePrune: true
+
+packages:
+  - '.'
+
+catalogMode: prefer
+catalogs:
+  cli:
+    '@ashtrath/oxc-config': ^0.1.1
+    bumpp: ^12.3.0
+    skills: ^1.7.6
+    tsx: ^4.23.15
+    typescript: ^7.0.2
+    oxfmt: ^0.77.0
+    oxlint: ^1.92.0
+    yaml: ^2.9.1
+  types:
+    '@types/node': ^26.6.6
+
+allowBuilds:
+  esbuild: true
