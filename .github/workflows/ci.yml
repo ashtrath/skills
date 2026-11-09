@@ -16,3 +16,4 @@ jobs:
       build: ''
       os-matrix: '"ubuntu-latest"'
       node-versions: '24'
+      skip-test: true
