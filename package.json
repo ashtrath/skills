@@ -54,5 +54,46 @@
     }
   },
   "packageManager": "pnpm@12.18.0",
-  "skills": []
+  "skills": [
+    {
+      "skills": [
+        "code-review",
+        "codebase-design",
+        "diagnosing-bugs",
+        "domain-modeling",
+        "grill-me",
+        "grill-with-docs",
+        "grilling",
+        "implement",
+        "implement-spec",
+        "prototype",
+        "research",
+        "retro",
+        "tdd",
+        "to-spec",
+        "to-tickets",
+        "wayfinder",
+        "writing-for-agents"
+      ],
+      "source": "mattpocock/skills",
+      "ref": "v1.3.2"
+    },
+    "ayghri/i-have-adhd",
+    {
+      "skills": [
+        "better-accessibility",
+        "better-colors",
+        "better-interface",
+        "better-layout",
+        "better-typography",
+        "better-ui",
+        "better-writing",
+        "break",
+        "explain-interface",
+        "state-machine",
+        "variant"
+      ],
+      "source": "jakubkrehel/skills"
+    }
+  ]
 }
